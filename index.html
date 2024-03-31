@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./navbar.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <a href="#home" id="logo">OssamaAg</a>
+    <input type="checkbox" id="hamburger" />
+    <label for="hamburger">
+      <i class="fa-solid fa-bars"></i>
+    </label>
+    <ul>
+      <li>
+        <a href="#about">About</a>
+      </li>
+      <li>
+        <a href="#sevices">Services</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+      <li>
+        <span><button class="btn ">Sign in</button></span>
+      </li>
+      <li>
+        <span><button class="btn">Sign up</button></span>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- MAIN SECTION -->
+
+  <section class="mainSection" id="about">
+    <div class="mainContent">
+      <img src="./profilePicture.jpg" alt="profilePicture">
+      <div class="contentDiv">
+        <h1>OSSAMA AGOURARI</h1>
+        <h4>FULL STACK DEVELOPER</h4>
+        <p>A passionate and highly skilled Full Stack Developer with 3 years of experience in developing robust and scalable web applications. Proficient in both front-end and back-end technologies, Possesses strong problem-solving abilities and a proactive attitude towards learning and implementing emerging technologies.</p>
+        <a href="./ossama agourari cv.pdf" download>
+          <button class="btn bt">Download CV</button>
+        </a>        
+      </div>
+    </div>
+  </section>
+
+  <!-- SERRVICES SECTION -->
+   
+  <section id="sevices" class="services">
+    <h1>SRVICES</h1>
+    <div class="service">
+      <div class="service1">
+        <h2>Front-end developing</h2>
+        <span>i can make you beautiful and attractive website using HTML CSS and make it responsive  </span>
+        <br><button class="btn bt">Show Details</button>
+      </div>
+      <div class="service2">
+        <h2>Front-end developing</h2>
+        <span>i can make you a website that interact with the user and connect to a database (php mysql ..) </span>
+        <br><button class="btn bt">Show Details</button>
+      </div>
+      <div class="service3">
+        <h2>Bug Solving</h2>
+        <span>i can fixe your website and make it more bueatiful and without bugs that will effect your website</span>
+        <br><button class="btn bt">Show Details</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+
+  <section id="contact" class="services">
+    <h1>CONTACT ME</h1>
+    <form class="form">
+      <div>
+        <label for="name">NAME : </label>
+        <input class="input" id="name" type="text" placeholder="Enter your Name" required>
+      </div>
+      <div>
+        <label for="email">EMAIL : </label>
+        <input class="input" id="email" type="email" placeholder="Enter your Email" required>
+      </div>
+      <div>
+        <label for="message">MESSAGE : </label>
+        <textarea id="message" rows="4" placeholder="Enter a Message"></textarea>
+      </div>
+    </form>
+  </section>
+
+  <!-- FOOTER SECTION -->
+
+  <footer>
+    <p>&copy; 2024 Ossama Agourari. All rights reserved.</p>
+    <ul class="list">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <p>Follow me on social media:</p>
+    <ul class="list">
+      <li><a href="#">LinkedIn</a></li>
+      <li><a href="#">GitHub</a></li>
+    </ul>
+  </footer>
+</body>
+
+</html>
